@@ -1,0 +1,67 @@
+
+:root {
+   --maize-crayola: #F9C74F;
+   --orange-red:#F3722C;
+   --pistachio: #90BE6D;
+   --queen-blue: #577590;
+   --red-salsa: #f94144;
+   --yellow-orange: #f8961e;
+}
+
+
+@font-face {
+   font-family: 'Rubik';
+   src: url(../fonts/Rubik-Regular.ttf) format("truetype");
+}
+
+* {
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ 
+html {
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   overflow-y: hidden;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+
+body {
+   width: 100%;
+   height: 100%;
+   background: var(--white);
+   padding: 0;
+   margin: 0;
+   font-family: Rubik;
+}
+
+header {
+   width: 100%;
+   height: 20%;
+   display: flex;
+   flex-direction: row;
+   font-family: Rubik;
+}
+
+a:-webkit-any-link {
+   color: var(--orange-red);
+   cursor: pointer;
+}
+
+li {
+   display: list-item;
+   list-style-type: none;
+}
+
+.header {
+   width: 100%;
+   display: flex;
+}
+
+
+
+ 
