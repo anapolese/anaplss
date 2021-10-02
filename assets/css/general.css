@@ -1,11 +1,9 @@
 
 :root {
-   --maize-crayola: #F9C74F;
-   --orange-red:#F3722C;
-   --pistachio: #90BE6D;
+   --eerie-black: #1f1e1e;
+   --orange-red-crayola: #FF5C5F;
+   --say-hi-hover: #FFFFFF;
    --queen-blue: #577590;
-   --red-salsa: #f94144;
-   --yellow-orange: #f8961e;
 }
 
 
@@ -24,7 +22,6 @@
 html {
    width: 100%;
    height: 100%;
-   margin: 0;
    overflow-y: hidden;
    overflow-x: hidden;
    scroll-behavior: smooth;
@@ -41,14 +38,39 @@ body {
 
 header {
    width: 100%;
-   height: 20%;
-   display: flex;
-   flex-direction: row;
+   height: 85px;
+   padding-top: 36px;
+   padding-left: 140px;
+   padding-right: 140px;
    font-family: Rubik;
 }
 
+.siteHeader {
+   width: 100%;
+}
+
+#sayHi {
+   border: solid var(--orange-red-crayola) 1px;
+   color: var(--orange-red-crayola);
+   border-radius: 10px;
+   padding: 9px 8px;
+   transition: background-color 1s;
+}
+
+#sayHi:hover {
+   border: solid var(--orange-red-crayola) 1px;
+   color: var(--say-hi-hover);
+   background-color: var(--orange-red-crayola);
+}
+
+#sayHi:active {
+   border: solid var(--orange-red-crayola) 1px;
+   color: var(--say-hi-hover);
+   background: var(--orange-red-crayola);
+}
+
 a:-webkit-any-link {
-   color: var(--orange-red);
+   color: var(--eerie-black);
    cursor: pointer;
 }
 
@@ -57,11 +79,30 @@ li {
    list-style-type: none;
 }
 
-.header {
-   width: 100%;
-   display: flex;
+.siteLogo a {
+   color: var(--orange-red-crayola);
 }
 
+#menu {
+   width: 100%;
+   height: 45px;
+   margin-right: 0;
+}
 
+h3 {
+   width: 10%;
+   margin: 0;
+   padding: 0;
+   display: inline-block;
+}
 
- 
+#leftMenu {
+   width: 86%;
+   height: 45px;
+   display: inline-block;
+   text-align: right;
+}
+
+#leftMenu a {
+   margin: 9px;
+}
