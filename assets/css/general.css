@@ -36,7 +36,6 @@ body {
    width: 100%;
    background: var(--white);
    font-family: Rubik;
-   min-height: 100vh;
 }
 
 header {
@@ -215,7 +214,7 @@ h1 {
 }
 
 footer {
-   height: 100px;
+   height: 150px;
    position: absolute;
    width: 100%;
    display: block;
@@ -237,4 +236,21 @@ footer {
    z-index: 0;
    position: absolute;
    bottom: 0;
+}
+.footer__Container {
+   width: 100%;
+   max-width: 1000px;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+}
+
+.footer {
+   font-size: 0.9em;
+   width: fit-content;
+   display: block;
+   color: var(--say-hi-hover);
+   bottom: 10px;
+   margin: 0 auto;
 }
