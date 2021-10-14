@@ -52,7 +52,7 @@ header {
 
 .siteHeader {
    width: 100%;
-   max-width: 1000px;
+   max-width: 1200px;
    margin: auto;
    height: 80px;
    padding-top: 22px;
@@ -89,7 +89,7 @@ header {
 
 a:-webkit-any-link {
    color: var(--eerie-black);
-   font-size: 19px;
+   font-size: 21px;
    cursor: pointer;
    transition: color 0.1s;
 }
@@ -116,9 +116,9 @@ li {
 }
 
 h3 {
-   width: 53%;
+   width: 50%;
    color: var(--orange-red-crayola);
-   font-size: 30px;
+   font-size: 35px;
    font-weight: bold;
    margin: 0;
    padding: 0;
@@ -127,7 +127,7 @@ h3 {
 
 .logo__Highlight {
    float: left;
-   font-size: 17.5px;
+   font-size: 20.5px;
    color: var(--congo-pink);
 }
 
@@ -197,7 +197,7 @@ h3 {
 }
 
 h1 {
-   font-size: 4.5em;
+   font-size: 5em;
    color: var(--eerie-black);
 }
 
@@ -247,7 +247,7 @@ footer {
 }
 
 .footer {
-   font-size: 0.9em;
+   font-size: 1em;
    width: fit-content;
    display: block;
    color: var(--say-hi-hover);
