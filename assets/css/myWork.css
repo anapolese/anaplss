@@ -1,0 +1,26 @@
+.work__BodyContent {
+   color: var(--say-hi-hover);
+   width: 100%;
+   height: 365px;
+   text-align: justify;
+   padding: 10px;
+   position: relative;
+}
+h4 {
+   font-size: 1.5em;
+   display: inline-block;
+   position: absolute;
+   top: 0;
+}
+.work__Images {
+   border-radius: 10px;
+   box-shadow: 0px 0px 5px 1px rgba(112, 111, 111, 0.11);
+   display: inline-block;
+}
+
+.work__Description {
+   width: 20%;
+   color: var(--say-hi-hover);
+   text-align: right;
+   display: inline-block;
+}
