@@ -158,8 +158,8 @@ h3 {
 }
 
 .clickable__Button {
-   border: solid 2px var(--btn-white-deactivated);
-   background: var(--btn-white-deactivated);
+   border: solid 1px rgb(192, 192, 192);
+   background: linear-gradient(#D3D3D3, #fbfafa, #D3D3D3);
    box-shadow: 0px 0px 5px 1px rgba(112, 111, 111, 0.7);
    border-radius: 20px;
    width: 17px;
