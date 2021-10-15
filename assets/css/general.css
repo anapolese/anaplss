@@ -113,6 +113,8 @@ li {
 
 .siteLogo__Box {
    display: inline-block;
+   padding-left: 25px;
+   width: 10em;
 }
 
 h3 {
