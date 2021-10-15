@@ -1,26 +1,44 @@
+
+.works__Wrapper {
+   display: flex;
+   gap: 15px;
+}
+
 .work__BodyContent {
    color: var(--say-hi-hover);
-   width: 100%;
+   width: 50%;
    height: 365px;
    text-align: justify;
-   padding: 10px;
+   padding: 12px;
+   display: inline-block;
    position: relative;
 }
+
+h2 {
+   color: var(--say-hi-hover);
+   font-size: 2.3em;
+   text-align: left;
+   display: inline-block;
+   width: 100%;
+   padding: 15px;
+} 
+
 h4 {
    font-size: 1.5em;
    display: inline-block;
    position: absolute;
    top: 0;
 }
+
 .work__Images {
    border-radius: 10px;
    box-shadow: 0px 0px 5px 1px rgba(112, 111, 111, 0.11);
    display: inline-block;
 }
-
-.work__Description {
-   width: 20%;
+ 
+ .work__Description {
+   width: 100%;
    color: var(--say-hi-hover);
-   text-align: right;
+   text-align: justify;
    display: inline-block;
-}
+ }
